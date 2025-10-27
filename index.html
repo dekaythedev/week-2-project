@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+<!--Header -->
+<header id="header">
+    <h1 id="home">My Portfolio Project</h1>
+    <nav id="navigation">
+        <a href="#about">About Me</a>
+        <a href="#projects">Currently Learning</a>
+        <a href="#form">Contact</a>
+    </nav>
+</header>
+<!-- Navbar -->
+<!-- <nav> -->
+    <!-- <a href="#about">About Me</a> -->
+    <!-- <a href="#projects">Currently Learning</a> -->
+    <!-- <a href="#form">Contact</a> -->
+<!-- </nav> -->
+
+<!-- About Me -->
+ <section id="about">
+    <h2>About Me</h2>
+    <img id="profile-pic" src="images/halloweencat.png" alt="halloween">
+    <p>I am new to developing but eager to learn as much as possible</p>
+</section>
+<section id="projects">
+    <h2>Currently Learning</h2>
+    <div class="container">
+        <h3>HTML</h3>
+        <img class="project-img" src="images/HTML.png" alt="Logo">
+        <p>Hypertext Markup Language is the building blocks of webpages and allows you to create a website structure to later be styled.</p>
+    </div>
+    <div class="container">
+        <h3>CSS</h3>
+        <img class="project-img" src="images/CSS.jpg" alt="Logo">
+        <p>CSS, or Cascading Style Sheets, is a stylesheet language used to describe the presentation of a document written in a markup language like HTML. It controls the visual styling of web pages</p>
+    </div>
+    <div class="container">
+        <h3>JavaScript</h3>
+        <img class="project-img" src="images/JS.png" alt="Logo">
+        <p>JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area.</p>
+    </div>
+
+</section>
+<!-- Form -->
+<section id="form-container">
+   <form>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name"><br>
+  <label for="email">Email:</label><br>
+  <input type="text" id="email" name="email">
+  <label for="msg">Message:</label><br>
+  <input type="text" rows="5" cols="40" placeholder="Enter Message" id="msg" name="msg">
+  <input type="submit" value="Submit">
+</form>
+</section>
+
+<!-- footer -->
+    <footer>
+        Cat Copyright 2025 @ Meow LLC
+    </footer>
+</body>
+</html>
